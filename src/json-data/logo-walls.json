@@ -1,0 +1,10 @@
+{
+    "risc-v": {
+        "logo": "",
+        "link_url": ""
+    },
+    "milkv": {
+        "logo": "/logo/milkv.webp",
+        "link_url": "https://milkv.io"
+    }
+}

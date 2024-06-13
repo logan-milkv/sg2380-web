@@ -1,0 +1,194 @@
+.block_center {
+    width: 100%;
+    aspect-ratio: 768/432;
+    background-color: #26272c;
+    margin: 0 auto;
+    position: relative;
+    border-radius: 45px;
+    overflow: hidden;
+}
+
+.chip_view {
+    display: none;
+}
+
+.center_item {
+    position: absolute;
+    top: 0;
+    height: 0;
+    width: 100%;
+    height: 100%;
+    transition: .5s;
+}
+
+.image_item {
+    width: 100%;
+}
+
+.highlight_item {
+    background-color: rgba(0, 0, 0, .7);
+    z-index: 99;
+    transition: .3s;
+}
+
+.clip_ele {
+    position: absolute;
+    background-color: transparent;
+    width: 16%;
+    height: 50%;
+    -webkit-clip-path: polygon(2% 13%, 93% 43%, 95% 90%, 5% 59%);
+    clip-path: polygon(2% 13%, 93% 43%, 95% 90%, 5% 59%);
+    z-index: 98;
+}
+
+.clip_item6 {
+    top: 40%;
+    left: 20%;
+}
+
+.clip_item5 {
+    top: 34%;
+    left: 30%;
+}
+
+.clip_item4 {
+    top: 26%;
+    left: 38%;
+}
+
+.clip_item3 {
+    top: 17%;
+    left: 47%;
+}
+
+.clip_item2 {
+    top: 9%;
+    left: 56%;
+}
+
+.clip_item1 {
+    top: 2%;
+    left: 66%;
+}
+
+.directional {
+    position: absolute;
+    width: 10px;
+}
+
+.directional6 {
+    top: 36%;
+    left: 22%;
+    transform: rotate(180deg);
+}
+
+.directional5 {
+    top: 70%;
+    left: 40%;
+}
+
+.directional4 {
+    top: 22%;
+    left: 42%;
+    transform: rotate(180deg);
+}
+
+.directional3 {
+    top: 55%;
+    left: 60%;
+}
+
+.directional2 {
+    top: 48%;
+    left: 68%;
+}
+
+.directional1 {
+    top: 40%;
+    left: 80%;
+}
+
+.position_text {
+    color: #FFF;
+    text-align: left;
+    font-family: Chivo;
+    margin: 0;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+}
+
+.position_text6 {
+    top: 30%;
+    left: 15%;
+}
+
+.position_text5 {
+    top: 87%;
+    left: 38%;
+}
+
+.position_text4 {
+    top: 17%;
+    left: 40.5%;
+}
+
+.position_text3 {
+    top: 72%;
+    left: 58%;
+}
+
+.position_text2 {
+    top: 65%;
+    left: 65%;
+}
+
+.position_text1 {
+    top: 58%;
+    left: 75%;
+}
+
+@media screen and (min-width: 1800px) {
+    .position_text {
+        width: 450px;
+        font-size: 32px;
+    }
+}
+
+@media screen and (max-width: 1800px) and (min-width: 1450px) {
+    .position_text {
+        width: 400px;
+        font-size: 26px;
+    }
+}
+
+@media screen and (max-width: 1450px) and (min-width: 1000px) {
+
+    .directional {
+        width: 7px;
+    }
+
+    .position_text {
+        width: 300px;
+        font-size: 20px;
+        overflow: hidden;
+        z-index: 12;
+    }
+}
+
+@media screen and (max-width: 1000px) and (min-width: 750px) {
+    .directional {
+        width: 5px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .block_center {
+        display: none;
+    }
+
+    .chip_view {
+        display: block;
+    }
+}
