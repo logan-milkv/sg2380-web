@@ -15,7 +15,7 @@ export default () => {
         <div className={styles.footer_links}>
             <p>Sales Department:<Link href='mailto:sales@milkv.com?subject=Hello Milk-V!'>sales@milkv.io</Link></p>
             <div>
-                <Link>About SOPHGO</Link>
+                <Link to='https://sophon.ai/about-us/index.html'>About SOPHGO</Link>
                 <span>|</span>
                 <Link to='https://milkv.io/about'>About Milk-V</Link>
             </div>

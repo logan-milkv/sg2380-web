@@ -29,7 +29,7 @@ export default function Home() {
                 A Small Step in Open Source, a Giant Leap for RISC-V<br />
                 The first high-performance RISC-V processor designed for personal computing marks a new milestone in the adoption of open-source technology in the computing industry.
               </h1>
-              <Link className={styles.lern_more}>
+              <Link className={styles.lern_more} to='https://github.com/milkv-oasis/oasis-files/blob/main/sg2380/SG2380%20Product%20Brief%20V1.4.pdf'>
                 Product Brief
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M9 6L15 12L9 18" stroke="#D45900" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
@@ -167,7 +167,7 @@ export default function Home() {
           <div className={styles.communal}>
             <h3>Towards RISC-V Unified Computing Power</h3>
             <ScrollingAnimation />
-            <Link className={styles.communal_learn_more}>Learn More</Link>
+            <Link className={styles.communal_learn_more} to='https://community.milkv.io/c/oasis/'>Learn More</Link>
           </div>
         </div>
         <div className={styles.empower}>
