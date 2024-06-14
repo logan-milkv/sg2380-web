@@ -5,10 +5,10 @@ const config = {
   title: 'SG2380',
   tagline: 'SG2380 Website',
   favicon: 'img/block-1.webp',
-  url: 'https://docusaurus.io',
+  url: 'https://sg2380.github.io',
   baseUrl: '/',
-  organizationName: 'facebook',
-  projectName: 'docusaurus',
+  organizationName: 'logan-milkv',
+  projectName: 'sg2380-web',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   i18n: {
