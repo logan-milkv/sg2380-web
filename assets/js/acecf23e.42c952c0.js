@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksg_2380_website=self.webpackChunksg_2380_website||[]).push([[903],{1912:e=>{e.exports=JSON.parse('{"blogBasePath":"/sg2380-web/blog","blogTitle":"Blog"}')}}]);

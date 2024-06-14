@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksg_2380_website=self.webpackChunksg_2380_website||[]).push([[584],{3423:e=>{e.exports=JSON.parse('{"metadata":{"permalink":"/sg2380-web/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
